@@ -1,0 +1,4 @@
+size: "micro"
+
+metrics:
+  enabled: true
