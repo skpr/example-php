@@ -19,9 +19,6 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./php
     steps:
       - name: ⬇️  Checkout Code
         uses: actions/checkout@v7
